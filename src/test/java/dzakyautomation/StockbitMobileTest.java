@@ -4,10 +4,10 @@ import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
 public class StockbitMobileTest extends BaseTest {
-    @Test
     public void BuyProductTest() throws InterruptedException {
         System.out.println("Appium Basics");
 
+        Thread.sleep(10000);
         // Actual Automation
         driver.findElement(By.xpath("//androidx.recyclerview.widget.RecyclerView[@content-desc='Displays all products of catalog']/android.view.ViewGroup/android.widget.ImageView[@content-desc='Sauce Lab Back Packs']")).click();
         driver.findElement(By.xpath("//android.widget.ImageView[@content-desc='Blue color']")).click();

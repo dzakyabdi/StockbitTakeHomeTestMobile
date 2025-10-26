@@ -26,7 +26,6 @@ public class BaseTest {
 
         UiAutomator2Options options = new UiAutomator2Options();
         options.setDeviceName("Pixel_3a");
-//        options.setApp("D:\\Automation Blibli\\appium_1\\src\\test\\rscrs\\ApiDemos-debug.apk");
         options.setApp("D:\\Automation Blibli\\appium_1\\src\\test\\rscrs\\mda-1.0.13-15.apk");
 
         driver = new AndroidDriver(new URL("http://127.0.0.1:4723"), options);
