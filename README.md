@@ -17,51 +17,33 @@ Each Appium driver (such as appium-uiautomator2-driver or appium-espresso-driver
 
 Node.js provides an event-driven environment for:
 
-Logging and reporting test actions in real-time
-
-Handling asynchronous device interactions (ADB commands, UI queries)
-
-Managing Appium’s internal operations such as session creation, command routing, and cleanup
+- Logging and reporting test actions in real-time
+- Handling asynchronous device interactions (ADB commands, UI queries)
+- Managing Appium’s internal operations such as session creation, command routing, and cleanup
 
 3. Android Studio
 Setup:
 
-Install Android Studio
-
-Set up the Android SDK
-
-Configure environment variables (ANDROID_HOME, JAVA_HOME)
-
-Create an Android Emulator
-
-Install Node.js and Appium
-
-Install Appium Drivers for Android
-
-Test the setup to ensure all dependencies are correctly configured
+- Install Android Studio
+- Set up the Android SDK
+- Configure environment variables (ANDROID_HOME, JAVA_HOME)
+- Create an Android Emulator
+- Install Node.js and Appium
+- Install Appium Drivers for Android
+- Test the setup to ensure all dependencies are correctly configured
 
 4. Appium Server
 Setup:
 
-Install Appium and required packages
-
-npm install -g appium
-
-
-Start the Appium Server
-
-appium
-
-
-Run the automation tests once the server is running
+- Install Appium and required packages (example: npm install -g appium)
+- Start the Appium Server
+- Run the automation tests once the server is running
 
 5. Appium Inspector
 Setup:
-
-Download and install Appium Inspector
-
-Open the Capability Builder and set the following values:
-
+- Download and install Appium Inspector
+- Open the Capability Builder and set the following values:
+- 
 {
   "app": "D:\\Automation Blibli\\appium_1\\src\\test\\rscrs\\mda-1.0.13-15.apk",
   "deviceName": "Pixel_3a",
@@ -69,42 +51,31 @@ Open the Capability Builder and set the following values:
   "automationName": "UIAutomator2"
 }
 
+
 📦 Dependencies (pom.xml)
 
 The following dependencies are required for this project:
+- io.appium
+- org.testng
+- io.cucumber
+- io.cucumber:cucumber-testng
 
-io.appium
-
-org.testng
-
-io.cucumber
-
-io.cucumber:cucumber-testng
 
 ▶️ How to Run the Automation
 
-Clone the repository
+1. Clone the repository
+2. Resolve all dependencies (Maven will handle this automatically)
+3. Start the Android Emulator
+4. Install the APK on the emulator
+5. Start the Appium server
+6. Run the automation tests through your IDE or using Maven/TestNG commands
 
-git clone <your-repo-url>
-
-
-Resolve all dependencies (Maven will handle this automatically)
-
-Start the Android Emulator
-
-Install the APK on the emulator
-
-Start the Appium server
-
-appium
-
-
-Run the automation tests through your IDE or using Maven/TestNG commands
 
 🎥 Automation Run Recording
 
 You can watch a recording of the automation running locally here:
 https://drive.google.com/file/d/1GP_nJHNcD5oN1MtJ8O7A7h0MvTfu5gEb/view?usp=sharing 
+
 
 
 
