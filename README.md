@@ -3,7 +3,7 @@ Tools/Application needed:
    as the base language
    
 3. Node JS
-  Appium’s server is written in JavaScript and runs on Node.js. When you install Appium (npm install -g appium), you’re actually installing a Node.js package. Running the Appium server (appium) starts a Node.js process that listens for WebDriver (JSON Wire Protocol / W3C WebDriver) commands. Each Appium driver (like appium-uiautomator2-driver or appium-espresso-driver) is a Node.js package. Node.js allows Appium to load, manage, and update these drivers dynamically.
+  \nAppium’s server is written in JavaScript and runs on Node.js. When you install Appium (npm install -g appium), you’re actually installing a Node.js package. Running the Appium server (appium) starts a Node.js process that listens for WebDriver (JSON Wire Protocol / W3C WebDriver) commands. Each Appium driver (like appium-uiautomator2-driver or appium-espresso-driver) is a Node.js package. Node.js allows Appium to load, manage, and update these drivers dynamically.
 
 Node.js provides an event-driven environment for:
 - Logging and reporting test actions in real-time
@@ -11,7 +11,7 @@ Node.js provides an event-driven environment for:
 - Managing Appium’s internal operations such as session creation, command routing, and cleanup.
    
 5. Android Studio
-Setup:
+\nSetup:
 - Install Android Studio
 - Set Up Android SDK
 - Set Environment Variables
@@ -20,14 +20,14 @@ Setup:
 - Install Appium Drivers for Android
 - Test the Setup
 
-7. Appium Server
-Setup:
+6. Appium Server
+\nSetup:
 - Install Appium and Required Packages
 - Start Appium Server
 - Run Automation
 
-9. Appium Inspector
-Setup:
+7. Appium Inspector
+\nSetup:
 - Download and Install Appium Inspector
 - Input Capability Builder
     - app: pathLocation (ex: "D:\Automation Blibli\appium_1\src\test\rscrs\mda-1.0.13-15.apk")
@@ -50,6 +50,7 @@ How to run automation
 
 Automation Run:
 https://drive.google.com/file/d/1GP_nJHNcD5oN1MtJ8O7A7h0MvTfu5gEb/view?usp=sharing 
+
 
 
 
